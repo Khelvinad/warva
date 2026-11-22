@@ -27,6 +27,9 @@ external asset dependency.
 
 ## Windows build
 
+The `Visual Studio 17 2022` generator is only available in a Windows CMake
+installation. If you are on Linux, use the Linux build section below instead.
+
 ```powershell
 cmake -S . -B build -G "Visual Studio 17 2022" -A x64
 cmake --build build --config Debug
