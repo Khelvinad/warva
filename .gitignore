@@ -1,0 +1,18 @@
+# Build output
+build/
+build-*/
+out/
+cmake-build-*/
+
+# IDE / editor
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+CMakeUserPresets.json
+compile_commands.json
+
+# OS noise
+.DS_Store
+Thumbs.db
